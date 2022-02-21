@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "kandidat_MSRA.py", line 217, in <module>
+    main()
+  File "kandidat_MSRA.py", line 103, in main
+    name_files = pre.list_file(PATH, type_file = EXTENTION)
+  File "/home/m450292/deteksi/praproses.py", line 44, in list_file
+    for file in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: 'MSRA-TD500/test'

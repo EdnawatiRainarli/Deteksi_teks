@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "kandidat_MSRA.py", line 9, in <module>
+    import praproses as pre
+  File "/home/m450292/deteksi/praproses.py", line 922, in <module>
+    from skimage import feature
+ModuleNotFoundError: No module named 'skimage'
